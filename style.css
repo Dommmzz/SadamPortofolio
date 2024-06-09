@@ -14,7 +14,7 @@
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #8c0000;
+    --main-color: #e10000;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
@@ -25,7 +25,7 @@
 }
 
 .dark-mode {
-    --bg-color: #000000;
+    --bg-color: #222222;
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
 }
@@ -307,7 +307,7 @@ span {
 }
 
 .about-img img {
-    width: 40vw;
+    width: 27vw;
 }
 
 .heading {
@@ -488,17 +488,17 @@ span {
     flex-direction: column;
     background: var(--bg-color);
     border-radius: 2rem;
-    box-shadow: 0 .1rem .5rem var(--shadow-color);
-    padding: 3rem 5rem;
+    box-shadow: 0 .1rem .8rem var(--shadow-color);
+    padding: 2rem 5rem;
     border-top: .8rem solid var(--main-color);
     border-bottom: .8rem solid var(--main-color);
 }
 
 .testimonial-slide img {
-    width: 14rem;
-    height: 14rem;
+    width: 75rem;
+    height: 50rem;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 3%;
     border: .5rem solid var(--bg-color);
     outline: .5rem solid var(--main-color);
 }
@@ -509,7 +509,7 @@ span {
 }
 
 .testimonial-slide p {
-    font-size: 1.4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -519,11 +519,11 @@ span {
 }
 
 .testimonial-box .swiper-button-next {
-    right: 0;
+    right: -20rem;
 }
 
 .testimonial-box .swiper-button-prev {
-    left: 0;
+    left: -20rem;
 }
 
 .testimonial-box .swiper-pagination-bullet {
